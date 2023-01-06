@@ -1,0 +1,111 @@
+.container {
+	box-sizing: border-box;
+	text-align: left;
+
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    position:center;
+
+
+    backdrop-filter:blur(10px);
+    background-color: rgba(255,255,255,0.75);
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 0;
+	min-height: 100vh;
+    background-image:url(food.png);
+    background-size:cover;
+}
+
+background-image{
+opacity:0.2;}
+
+img {
+	max-width: 40%;
+
+}
+
+p {
+	margin-bottom: 5px;
+}
+
+h3 {
+	margin: 10px;
+}
+
+h5 {
+	margin: 10px 0;
+}
+
+li {
+	margin-bottom: 0;
+}
+.resize{
+
+  
+    right:250px;
+      top:50%;
+}
+
+.button-primary{
+      width:500px;
+      height:50px;
+      background-color: black;
+      border-radius: 100px;
+      color: white;
+      font-size: 20px;
+      border: 2px solid white;
+      text-align:center;
+      cursor:pointer;
+      
+
+}
+
+.button-primary:hover {
+                 color: rgba(255, 200, 255, 1);
+                 box-shadow: 0 12.5px 15px rgba(145, 100, 100, 1);
+               }
+
+
+.meal {
+	margin: 50px 50px;
+	font-size: 20px;
+}
+
+.text-center {
+padding:50px 50px;
+	text-align: justify;
+	font-size: 20px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+}
+
+.row{
+ text-align:center;
+ font-size: 20px;
+
+}
+ul.list{
+     display: inline-block;
+      text-align: left;
+      font-size: 20px;
+}
