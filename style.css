@@ -1,15 +1,17 @@
 .container {
-	box-sizing: border-box;
-	text-align: left;
-
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    position:center;
-
-
-    backdrop-filter:blur(10px);
+	/* margin: auto; */
+    max-width: 1000px;
+    border: 3px solid green;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
     background-color: rgba(255,255,255,0.75);
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 80%; /* Adjust as needed */
+    }
 }
 
 body {
@@ -54,17 +56,15 @@ li {
 }
 
 .button-primary{
-      width:500px;
-      height:50px;
-      background-color: black;
-      border-radius: 100px;
-      color: white;
-      font-size: 20px;
-      border: 2px solid white;
-      text-align:center;
-      cursor:pointer;
-      
-
+	flex-wrap: wrap;
+	padding-inline: 100px;
+	background-color: black;
+	border-radius: 100px;
+	color: white;
+	font-size: 20px;
+	border: 2px solid white;
+	text-align:center;
+	cursor:pointer;
 }
 
 .button-primary:hover {
@@ -108,4 +108,16 @@ ul.list{
      display: inline-block;
       text-align: left;
       font-size: 20px;
+}
+
+.option{
+	flex-wrap: wrap;
+	padding-inline: 100px;
+	background-color: black;
+	border-radius: 100px;
+	color: white;
+	font-size: 20px;
+	border: 2px solid white;
+	text-align:center;
+	cursor:pointer;
 }
